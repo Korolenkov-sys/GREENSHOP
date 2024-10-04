@@ -36,3 +36,11 @@
         .P_margin {
             margin-bottom: 14px;
         }
+
+        .Register {
+            width: 300px; 
+            height: 45px; 
+            background-color: #46A358; 
+            color: #FFFFFF; 
+            margin-bottom: 36px;
+        }
