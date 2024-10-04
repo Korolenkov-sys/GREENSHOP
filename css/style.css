@@ -1,0 +1,38 @@
+
+        .header-container {
+           display: flex; 
+           gap: 27px;
+           margin-bottom: 40px;
+        }
+        input, label, button {
+            margin-bottom: 16px;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 114%;
+            color: #a5a5a5;
+        }
+        p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 123%;
+            color: #3d3d3d;
+        }
+        .block {
+            max-width: 500px;
+            margin: auto; 
+            padding: 50px 100px;
+        }
+
+        .green_h2 {
+            color: #46a358;
+        }
+        .bottom_h2 {
+            bottom: 30px;
+        }
+        .P_margin {
+            margin-bottom: 14px;
+        }
