@@ -1,4 +1,14 @@
-.container {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.wrapper {
 
     max-width: 500px;
     margin: auto;
@@ -120,6 +130,7 @@ button {
 .img {
     padding-right: 9px;
 }
+       
 a {
     display: inline-block;
 }
@@ -274,4 +285,4 @@ margin-bottom: 46px;
 .hero-Shop-now:active {
     transform: scale(0.95);
     opacity: 0.8;
-}       
+}
