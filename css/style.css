@@ -222,6 +222,7 @@ unicode-bidi: isolate;
 margin: auto;
 max-width: 1200px;
 background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+border: none;
 }
 
 
