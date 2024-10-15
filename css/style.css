@@ -410,3 +410,41 @@ font-size: 16px;
 line-height: 100%;
 color: #3d3d3d;
 }
+
+.products_pagination{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 90px;
+    gap: 10px;
+    
+
+}
+
+.products_pagination span{
+    background-color: #46A358;
+    font-weight: 700;
+    color: #fff;
+}
+
+.products_pagination_item:not(span){
+    border: 1px solid #c4c4c4;
+}
+
+
+.products_pagination a{
+font-weight: 300;
+line-height: 89%;
+color: #3d3d3d;
+text-decoration: none;
+}
+
+ .products_pagination_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 9px 12px 8px 12px;
+ }
