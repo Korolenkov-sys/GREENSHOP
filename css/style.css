@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fons/cerapro-regular-webfont.eot');
+    src: url('../fons/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fons/cerapro-regular-webfont.woff2') format('woff2'),
+         url('../fons/cerapro-regular-webfont.woff') format('woff'),
+         url('../fons/cerapro-regular-webfont.ttf') format('truetype'),
+         url('../fons/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -161,7 +179,7 @@ header nav ul {
 }
 
 header nav a {
-    font-family: "Cera Pro", sans-serif;;
+    font-family: 'cera_proregular';
 font-weight: 400;
 font-size: 16px;
 color: #3d3d3d;
@@ -169,7 +187,7 @@ text-decoration: none;
 }
 
 header .Login {
-    font-family: var(--font-family);
+    font-family: 'cera_proregular';
 font-weight: 500;
 font-size: 16px;
 color: #fff;
@@ -397,7 +415,7 @@ transition: 0,4s;
 
 
 .main_product_items h3{
-    font-family: var(--font-family);
+    font-family: 'cera_proregular';
 font-weight: 700;
 font-size: 18px;
 line-height: 89%;
@@ -449,3 +467,209 @@ border: 1px solid #c4c4c4;
     padding: 9px 12px 8px 12px;
  }
 
+
+
+
+
+
+ .flex_banner {
+    margin-top: 219px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 138px;
+    
+ }
+
+
+
+ .container_flex {
+    width: 1200px;
+ }
+
+
+.flowers_left{
+ max-width:  586px;
+ display: flex;
+ text-align: center;
+ margin-right: 28px ;
+ background: #fbfbfb;
+ 
+}
+
+
+
+.flowers_right {
+    max-width:  586px;
+    display: flex;
+    background: #fbfbfb;
+}
+
+
+
+.flex_banner h3 {
+    font-family: 'cera_proregular';
+font-weight: 900;
+font-size: 18px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: right;
+color: #3d3d3d;
+    
+    
+}
+
+
+
+
+
+
+
+.flex_banner p{
+    font-family: 'cera_proregular';
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+text-align: right;
+color: #727272;
+margin-bottom: 36px ;
+margin-top: 9px;
+}
+
+
+
+.flex_banner a{
+border-radius: 6px;
+width: 140px;
+text-decoration: none;
+background-color: #46A358;
+padding: 11px 9px;
+padding-left: 28px;
+padding-right: 2px;
+color: #fff;
+float: right;
+
+display: inline-flex;
+
+
+
+}
+
+
+
+.flex_banner a::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/Arrow\ -\ Right.svg");
+    margin-right: 4px;
+}
+
+
+
+.banner_Posts{
+    max-width: 1202px;
+    
+    margin: auto;
+    
+    
+}
+
+
+.banner_Posts h3{
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+}
+
+
+.banner_Posts p{
+    font-family: 'cera_proregular';
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+text-align: center;
+color: #727272;
+margin-top: 15px;
+}
+
+
+
+
+.banner_Blog_Posts {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+margin-top: 35px;
+}
+
+
+
+.banner_Blog_Posts h4{
+    font-family: 'cera_proregular';
+font-weight: 500;
+font-size: 14px;
+line-height: 114%;
+color: #46a358;
+text-align: left;
+margin-left: 15px;
+margin-right: 11px;
+
+}
+
+
+
+.banner_Blog_Posts h3{
+    font-family: 'cera_proregular';
+max-width: 700;
+font-size: 20px;
+line-height: 130%;
+color: #3d3d3d;
+margin-top: 4px;
+text-align: left;
+margin-left: 15px;
+margin-right: 11px;
+}
+
+.banner_Blog_Posts p{
+    font-family: 'cera_proregular';
+max-width: 400;
+font-size: 14px;
+line-height: 157%;
+color: #727272;
+margin-top: 4px;
+text-align: left;
+margin-left: 15px;
+margin-right: 11px;
+}
+
+
+
+.banner_Blog_Posts article a{
+    font-family: 'cera_proregular';
+font-weight: 500;
+font-size: 14px;
+line-height: 114%;
+color: #3d3d3d;
+text-align: left;
+margin-left: 15px;
+margin-right: 11px;
+margin-top: 9px;
+text-decoration: none;
+}
+
+
+
+
+
+.banner_Blog_Posts article a::after{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-image: url("../img/Arrow\ -\ 01Right.svg");
+    margin-left: 2px;
+}
