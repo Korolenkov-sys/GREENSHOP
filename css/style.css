@@ -608,6 +608,7 @@ margin-top: 9px;
     width: 20px;
     height: 20px;
     background-image: url("../img/Arrow\ -\ Right.svg");
+    transition: backgroun-color 0,3s;
     margin-right: 4px;
 }
 
@@ -726,7 +727,7 @@ text-decoration: none;
 
 
 .banner_Blog_Posts article a:hover::after{
-    
+    transition: backgroun-color 0,3s;
     background-image: url(../img/Rightgreen.svg);
 }
 
