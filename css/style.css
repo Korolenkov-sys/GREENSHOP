@@ -575,11 +575,11 @@ margin-top: 9px;
 
 
 .flex_banner a{
-    font-family: var(--font-family);
+   font-family: var(--font-family);
     display: flex;
     align-items: center;
-    gap: 5px;
-    padding: 11px 27px 9px 26px;
+    gap: 2px;
+    padding: 11px 28px 9px 28px;
     background: #46a358;
     border-radius: 6px;
     font-style: normal;
@@ -590,9 +590,6 @@ margin-top: 9px;
     border: 1px solid #46a358;
     color: #fff;
     text-decoration: none;
-
-
-
 }
 
 
