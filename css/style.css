@@ -211,6 +211,7 @@ header .Login::before{
 }
 
 header nav li:after{
+    font-family: 'cera_proregular';
     display: block;
     width: 0;
     content: "";
@@ -252,6 +253,7 @@ margin-bottom: 46px;
 
 
 .welcome {
+    font-family: 'cera_proregular';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -263,6 +265,7 @@ margin-bottom: 46px;
 }
 
 .hero_title{
+    font-family: 'cera_proregular';
     font-style: normal;
     font-weight: 900;
     font-size: 70px;
@@ -273,11 +276,13 @@ margin-bottom: 46px;
 }
 
 .hero_title>span {
+    font-family: 'cera_proregular';
     color: #46a358;
 
 }
 
 .hero_desc{
+    font-family: 'cera_proregular';
     width: 557px;
     font-style: normal;
     font-weight: 400;
@@ -288,6 +293,7 @@ margin-bottom: 46px;
 }
 
 .Shop-now{
+    font-family: 'cera_proregular';
     background-color: #46A358;
     border-radius: 6px;
     padding: 11px 27px;
@@ -574,7 +580,7 @@ margin-top: 9px;
 
 
 .flex_banner a{
-   font-family: var(--font-family);
+   font-family: 'cera_proregular';
     display: flex;
     align-items: center;
     gap: 2px;
