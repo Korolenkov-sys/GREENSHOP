@@ -524,13 +524,12 @@ border: 1px solid #c4c4c4;
 
 
 .flowers_left, .flowers_right {
-    width: 586px;
+    max-width: 586px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #fbfbfb;
-    height: 300px;
-    padding: 20px;
+   
 }
 
 .flex_banner article{
@@ -721,7 +720,13 @@ text-decoration: none;
 
 
 
-
-.banner_Blog_Posts a:hover {
+.banner_Blog_Posts article a:hover {
     color: #46A358;
 }
+
+
+.banner_Blog_Posts article a:hover::after{
+    
+    background-image: url(../img/Rightgreen.svg);
+}
+
