@@ -433,7 +433,15 @@ height: 350px;
 
 
 
-
+.strikethrough {
+    text-decoration: line-through;
+    font-family: 'cera_proregular';
+font-weight: 400;
+font-size: 18px;
+line-height: 89%;
+color: #a5a5a5;
+margin-left: 16px;
+}
 
 
 main .container .left_side ul li>a:hover{
