@@ -381,6 +381,12 @@ border-top: solid 1px transparent;
     border-top: solid 1px #46A358;
 }
 
+.main_product_items article a img{
+width: 258px;
+height: 350px;
+
+}
+
 
 main .container .left_side ul li>a:hover{
     color: #46A358;
