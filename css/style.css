@@ -153,7 +153,6 @@ a {
     display: inline-block;
 }
 
-
 header {
     padding-top: 30px;
 }
@@ -165,11 +164,9 @@ header {
     background-color: #FFFFFF;
 }
 
-
 .position_main{
     padding-top: 100px;
 }
-
 
 .container {
     max-width: 1200px;
@@ -268,7 +265,6 @@ margin-bottom: 46px;
 
 
 .welcome {
-    font-family: 'cera_proregular';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -280,7 +276,6 @@ margin-bottom: 46px;
 }
 
 .hero_title{
-    font-family: 'cera_proregular';
     font-style: normal;
     font-weight: 900;
     font-size: 70px;
@@ -291,13 +286,11 @@ margin-bottom: 46px;
 }
 
 .hero_title>span {
-    font-family: 'cera_proregular';
     color: #46a358;
 
 }
 
 .hero_desc{
-    font-family: 'cera_proregular';
     width: 557px;
     font-style: normal;
     font-weight: 400;
@@ -308,7 +301,6 @@ margin-bottom: 46px;
 }
 
 .Shop-now{
-    font-family: 'cera_proregular';
     background-color: #46A358;
     border-radius: 6px;
     padding: 11px 27px;
@@ -369,23 +361,79 @@ margin-bottom: 46px;
     flex-wrap: wrap;
     background: #fbfbfb ;
     row-gap: 70px;
+    margin-top: 31px;
 }
 
 .main_product_items article{
+    margin: auto;
 max-width: 250px;
 border-top: solid 1px transparent;
+position: relative;
 }
 
-
-.main_product_items article:hover{
-    border-top: solid 1px #46A358;
-}
 
 .main_product_items article a img{
 width: 258px;
 height: 350px;
 
 }
+
+.main_product_items article:hover{
+    border-top: solid 1px #46A358;
+}
+
+.main_product_items article .sale{
+    font-family: 'cera_proregular';
+    position: absolute;
+    background-color: #46A358;
+    padding: 7px 8px 6px 9px;
+    color: #FFFFFF;
+    left: 0;
+    top: 14px;
+}
+
+
+
+
+.main_product_items li a img{
+    width: 20px;
+    height: 20px;
+    
+
+}
+
+.main_product_items article ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+    opacity: 0;
+    transition: 0,4s ease;
+}
+
+.main_product_items article:hover ul{
+    opacity: 1;
+
+}
+
+.main_product_items article .icon-hover{
+    display: none;
+}
+
+.main_product_items article ul li a:hover .icon-default{
+    display: none;
+}
+
+.main_product_items article li a:hover .icon-hover{
+    display: block;
+}
+
+
+
+
 
 
 main .container .left_side ul li>a:hover{
@@ -430,7 +478,7 @@ main .container .left_side ul li a {
 }
 
 
-.right_side li:after{
+.right_side .product_sort li:after{
 display: block;
 width: 0;
 content: "";
@@ -500,6 +548,7 @@ border: 1px solid #c4c4c4;
     background-color: #FFFFFF;
     font-style: normal;
     line-height: 16px;
+    
  }
 
  
@@ -563,7 +612,7 @@ border: 1px solid #c4c4c4;
     justify-content: center;
     align-items: center;
     background: #fbfbfb;
-   
+    
 }
 
 .flex_banner article{
@@ -608,7 +657,7 @@ margin-top: 9px;
 
 
 .flex_banner a{
-   font-family: 'cera_proregular';
+    font-family: 'cera_proregular';
     display: flex;
     align-items: center;
     gap: 2px;
@@ -623,6 +672,9 @@ margin-top: 9px;
     border: 1px solid #46a358;
     color: #fff;
     text-decoration: none;
+
+
+
 }
 
 
@@ -740,7 +792,7 @@ line-height: 114%;
 color: #3d3d3d;
 text-align: left;
 text-decoration: none;
-    margin-top: 9px;
+margin-top: 9px;
 }
 
 
@@ -754,7 +806,9 @@ text-decoration: none;
     height: 11px;
     background-image: url("../img/Arrow\ -\ 01Right.svg");
     margin-left: 2px;
+    
 }
+
 
 
 
@@ -764,7 +818,7 @@ text-decoration: none;
 
 
 .banner_Blog_Posts article a:hover::after{
-    transition: backgroun-color 0,3s;
+    
     background-image: url(../img/Rightgreen.svg);
+    transition: backgroun-color 0,3s;
 }
-
