@@ -156,6 +156,17 @@ a {
 header {
     padding-top: 30px;
 }
+
+.position_header{
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.position_main{
+    padding-top: 100px;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
